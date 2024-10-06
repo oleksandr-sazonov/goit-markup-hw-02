@@ -21,13 +21,15 @@ button {
 }
 
 .header-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-    text-transform: uppercase; /* Добавлен стиль для верхнего регистра */
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
+        text-transform: capitalize;
+        text-transform: uppercase;
+    /* Добавлен стиль для верхнего регистра */
 }
 
 .header-logo-color {
