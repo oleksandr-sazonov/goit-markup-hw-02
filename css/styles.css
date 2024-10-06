@@ -1,4 +1,4 @@
-body {
+body { 
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
@@ -16,7 +16,6 @@ address {
     font-style: normal;
 }
 
-
 button {
     font-family: inherit;
 }
@@ -28,7 +27,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-
+    text-transform: uppercase; /* Добавлен стиль для верхнего регистра */
 }
 
 .header-logo-color {
@@ -36,10 +35,8 @@ button {
 }
 
 .header-navigation {
-    color: #2e2f42;
     background: #fff;
 }
-
 
 .header-navigation-link {
     font-weight: 500;
@@ -86,7 +83,6 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background: #2e2f42;
 }
 
 .solutions-btn {
@@ -96,16 +92,12 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .solutions-btn:hover,
 .solutions-btn:focus {
     background: #404bbf;
-}
-
-.adventures-title {
-    display: none;
 }
 
 .adventures-subtitle {
@@ -135,7 +127,6 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    text-transform: capitalize;
 }
 
 .team-list-item {
@@ -165,7 +156,6 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    text-transform: capitalize;
 }
 
 .portfolio-subtitle {
@@ -185,7 +175,6 @@ button {
 }
 
 .footer {
-
     background: #2e2f42;
 }
 
