@@ -159,6 +159,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    text-transform: capitalize
 }
 
 .portfolio-subtitle {
